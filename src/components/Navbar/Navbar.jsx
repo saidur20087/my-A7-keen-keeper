@@ -4,8 +4,8 @@ import { FaHome, FaClock, FaChartBar, FaUsers } from 'react-icons/fa';
 const Navbar = () => {
   return (
     <nav className="bg-white border-b sticky top-0 z-50 shadow-sm">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="hidden md:flex items-center gap-6">
       
           <h1 className="text-3xl font-bold text-gray-900">Keen<span className='text-green-800 text-2xl'>Keeper</span></h1>
         </div>

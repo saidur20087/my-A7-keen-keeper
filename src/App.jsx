@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound/NotFound";
 
 
 
+
 function App() {
   return (
     <Router>
@@ -23,7 +24,7 @@ function App() {
               <Route path="/friend/:id" element={<FriendDetails />} />
               <Route path="/timeline" element={<Timeline />} />
               <Route path="/stats" element={<Stats />} />
-              <Route path="/stats" element={<NotFound />} />
+              <Route path="*" element={<NotFound />} />
             
             </Routes>
           </main>
