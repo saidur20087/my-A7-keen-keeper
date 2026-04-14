@@ -30,8 +30,7 @@ const FriendDetails = () => {
       duration: 2500,
     });
 
-    // Note: Timeline e add hobe na ekhon, karon context remove kora hoyeche
-    // Jodi chaile pore global state add korbo
+  
   };
 
   if (loading) {
@@ -45,7 +44,7 @@ const FriendDetails = () => {
   return (
     <div className="max-w-7xl mx-auto px-6 py-10">
       <div className="grid md:grid-cols-2 gap-8">
-        {/* Left Column */}
+        
         <div className="bg-white rounded-3xl p-8 shadow-sm">
           <img 
             src={friend.picture} 

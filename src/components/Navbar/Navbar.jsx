@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { FaHome, FaClock, FaChartBar, FaUsers } from 'react-icons/fa';
+import { FaHome, FaClock, FaChartBar,  } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
