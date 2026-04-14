@@ -1,0 +1,64 @@
+{
+  "friends": [
+    {
+      "id": 1,
+      "name": "Rahim Khan",
+      "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+      "email": "rahim.khan@gmail.com",
+      "days_since_contact": 18,
+      "status": "overdue",
+      "tags": ["college", "close friend"],
+      "bio": "Met during university. We used to play cricket together every weekend.",
+      "goal": 14,
+      "next_due_date": "2025-04-25"
+    },
+    {
+      "id": 2,
+      "name": "Nadia Islam",
+      "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+      "email": "nadia.islam@yahoo.com",
+      "days_since_contact": 5,
+      "status": "on-track",
+      "tags": ["work", "best friend"],
+      "bio": "Colleague and very close friend. We share a lot of memories from office trips.",
+      "goal": 10,
+      "next_due_date": "2025-04-20"
+    },
+    {
+      "id": 3,
+      "name": "Siam Ahmed",
+      "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+      "email": "siam.ahmed@outlook.com",
+      "days_since_contact": 9,
+      "status": "almost due",
+      "tags": ["school", "childhood"],
+      "bio": "Childhood friend from school. Still keeps in touch after many years.",
+      "goal": 15,
+      "next_due_date": "2025-04-22"
+    },
+    {
+      "id": 4,
+      "name": "Fariha Tasnim",
+      "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+      "email": "fariha.tasnim@gmail.com",
+      "days_since_contact": 25,
+      "status": "overdue",
+      "tags": ["university"],
+      "bio": "University batchmate. Very helpful and positive person.",
+      "goal": 12,
+      "next_due_date": "2025-04-18"
+    },
+    {
+      "id": 5,
+      "name": "Tanvir Hasan",
+      "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+      "email": "tanvir.hasan@gmail.com",
+      "days_since_contact": 3,
+      "status": "on-track",
+      "tags": ["gym", "friend"],
+      "bio": "Gym buddy. We motivate each other to stay consistent.",
+      "goal": 7,
+      "next_due_date": "2025-04-19"
+    }
+  ]
+}
