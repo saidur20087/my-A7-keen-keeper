@@ -53,13 +53,13 @@ const Home = () => {
 
      
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-        **//Total friend
+       
         <div className="bg-white p-6 rounded-2xl text-center shadow-sm border">
           <div className="text-4xl font-bold text-emerald-700">{friends.length}</div>
           <div className="text-sm text-gray-500 mt-1">Total Friends</div>
         </div>
 
-         **//On Track
+        
         <div className="bg-white p-6 rounded-2xl text-center shadow-sm border">
           <div className="text-4xl font-bold text-emerald-700">
             {friends.filter(f => f.status === "on-track").length}
@@ -67,7 +67,7 @@ const Home = () => {
           <div className="text-sm text-gray-500 mt-1">On Track</div>
         </div>
 
-        **//Need Attention
+   
         <div className="bg-white p-6 rounded-2xl text-center shadow-sm border">
           <div className="text-4xl font-bold text-red-600">
             {friends.filter(f => f.status === "overdue" || f.status === "almost due").length}
@@ -75,14 +75,14 @@ const Home = () => {
           <div className="text-sm text-gray-500 mt-1">Need Attention</div>
         </div>
 
-           **//This Month
+      
         <div className="bg-white p-6 rounded-2xl text-center shadow-sm border">
           <div className="text-4xl font-bold text-emerald-700">12</div>
           <div className="text-sm text-gray-500 mt-1">Interactions This Month</div>
         </div>
       </div>
 
-      **// Friends Card Section 
+    
       <div className="flex items-center gap-3 mb-8">
         <FaUsers className="text-emerald-600" size={28} />
         <h2 className="text-2xl font-semibold text-gray-900">Your Friends</h2>
