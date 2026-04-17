@@ -22,7 +22,7 @@ const FriendCard = ({ friend }) => {
           alt={friend.name}
           className="w-20 h-20 rounded-2xl object-cover mx-auto"
         />
-        <h3 className="text-center font-semibold mt-3 text-lg">
+        <h3 className="text-center text-black font-semibold mt-3 text-lg">
           {friend.name}
         </h3>
 
@@ -39,7 +39,7 @@ const FriendCard = ({ friend }) => {
 
         <div className="mt-4 text-center">
           <p className="text-sm text-gray-500">Last contact</p>
-          <p className="font-semibold text-xl">
+          <p className="font-semibold text-black text-xl">
             {friend.days_since_contact} days ago
           </p>
         </div>
